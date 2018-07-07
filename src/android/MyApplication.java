@@ -10,6 +10,6 @@ public class MyApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        CrashCatchHandler.getInstance().init(getApplicationContext());
+        //CrashCatchHandler.getInstance().init(getApplicationContext());
     }
 }
